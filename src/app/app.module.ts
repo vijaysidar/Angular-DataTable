@@ -10,7 +10,8 @@ import { AppComponent } from './app.component';
 import { DatatableComponent } from './datatable/datatable.component';
 import { SecdatatableComponent } from './secdatatable/secdatatable.component';
 import { CalendarComponent } from './calendar/calendar.component';
-//import { ScheduleModule, RecurrenceEditorModule,DayService,WeekService,WorkWeekService,MonthService,MonthAgendaService } from '@syncfusion/ej2-angular-schedule';
+import { AgGridModule } from 'ag-grid-angular';
+import { ThirdtableComponent } from './thirdtable/thirdtable.component';
 FullCalendarModule.registerPlugins([
   dayGridPlugin,
   interactionPlugin
@@ -20,13 +21,15 @@ FullCalendarModule.registerPlugins([
     AppComponent,
     DatatableComponent,
     SecdatatableComponent,
-    CalendarComponent
+    CalendarComponent,
+    ThirdtableComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FullCalendarModule,
     DataTablesModule,
+    AgGridModule.withComponents([])
     //ScheduleModule,RecurrenceEditorModule
   
   ],

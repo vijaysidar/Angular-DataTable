@@ -23,6 +23,8 @@
     "@fullcalendar/daygrid": "^5.5.0",
     "@fullcalendar/interaction": "^5.5.0",
     "@syncfusion/ej2-material-theme": "~18.4.30",
+    "ag-grid-angular": "^24.1.0",
+    "ag-grid-community": "^24.1.0",
     "angular-datatables": "^10.0.0",
     "bootstrap": "^4.5.3",
     "datatables.net": "^1.10.23",
